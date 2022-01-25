@@ -1,0 +1,27 @@
+.container {
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+
+    //  @media (max-width: 1240px) {
+    //     & {
+    //         flex-direction: column;
+    //     }
+    // }
+    // @media (min-width: 1240px) {
+    //     & {
+    //         flex-direction: row;
+    //     }
+    // }
+}
+
+.circle2 {
+    position: relative;
+    top: 2rem;
+    margin: 0rem 0rem;
+}
+
+.rightBubble {
+     position: relative;
+    top: 13rem;
+}
