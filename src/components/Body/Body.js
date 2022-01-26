@@ -10,16 +10,27 @@ const Body = () => {
       <div>
         <Image src={circleman1} />
       </div>
-      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="25" cy="25" r="25" fill="#65D53E" />
-      </svg>
+      <div>
+        <svg
+          className="ml-5 hidden md:block"
+          width="50"
+          height="50"
+          viewBox="0 0 50 50"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="25" cy="25" r="25" fill="#65D53E" />
+        </svg>
+      </div>
 
-      <div className={styles.circle2}>
+      <div className="mt-16 mx-5 md:mx-0">
         <Image src={circleman2} />
       </div>
-      <svg className={styles.rightBubble} width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="25" cy="25" r="25" fill="#0085FF" />
-      </svg>
+      <div className="md:flex flex-col-reverse hidden">
+        <svg className="ml-5" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="25" cy="25" r="25" fill="#0085FF" />
+        </svg>
+      </div>
       <div>
         <Image src={circleman3} />
       </div>
