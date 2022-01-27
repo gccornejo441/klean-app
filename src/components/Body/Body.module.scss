@@ -1,15 +1,56 @@
+@import "styles/settings/__settings";
+
 .container {
-    display:flex;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .circle2 {
-    position: relative;
-    top: 2rem;
-    margin: 0rem 0rem;
+  position: relative;
+  top: 2rem;
+  margin: 0rem 0rem;
 }
 
 .rightBubble {
-     position: relative;
-    top: 13rem;
+  position: relative;
+  top: 13rem;
+}
+
+.proServices {
+  display: flex;
+  justify-content: center;
+  color: $color-lime-500;
+  background-color: $color-lime-100;
+  width: fit-content;
+  padding: 0px 30px;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  font-size: x-large;
+  margin: 0px auto;
+}
+
+.wash1 {
+  position: absolute;
+  bottom: -40px;
+  left: 100px;
+}
+
+// .wash2 {
+//   position: absolute;
+//   width: 314px;
+//   height: 434px;
+//   left: 284px;
+//   top: 2803px;
+// }
+
+.washContainer {
+    position: relative;
+    top: 400px;
+}
+
+.wash2 {
+    position: absolute;
+    bottom: -240px;
+    left: 15rem;
 }
