@@ -210,19 +210,19 @@ const Body = () => {
           </div>
         </div>
 
-        <div className="flex border-2 border-black">
+        <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2">
-            <div className='border-2 border-blue-500'>
+            <div className='flex flex-col'>
               <div className=''>
-                <Image src={washman1} width={314} height={434} />
+                <Image src={washman1} width={414} height={434} />
               </div>
-              <div className=''>
-                <Image src={washman2} width={314} height={434}  />
+              <div className='flex flex-row-reverse relative'>
+                <Image src={washman2} width={414} height={434}  />
               </div>
             </div>
           </div>
           <div className="lg:w-1/2">
-            <div className="flex justify-center flex-col text-center mb-20 mt-20 md:mt-48">
+            <div className="flex justify-center flex-col text-center mt-12">
               <h2 className={styles.proServices}>
                 <span>Professional Services</span>
               </h2>
